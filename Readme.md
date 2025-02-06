@@ -4,11 +4,12 @@
 A Frida-based JavaScript script designed to bypass common anti-Frida detection mechanisms.
 
 ## Features
-- Hides Frida processes.
-- Redirects access to Frida files.
-- Changes the default Frida port.
-- Obfuscates Frida-related strings.
-- Bypasses hooking detection for specific modules.
+- Process Hiding : Modifies the names of Frida-related processes to avoid detection.
+- File Redirection : Redirects access to Frida-specific files to /dev/null.
+- Port Modification : Changes the default Frida server port to evade network-based detection.
+- String Obfuscation : Replaces sensitive strings (e.g., "Frida", "GumJS") with obfuscated placeholders.
+- Hooking Bypass : Prevents specific modules from triggering anti-hooking mechanisms.
+- Console Logging : Provides real-time feedback by logging all actions directly to the console.
 
 ## Usage
 1. Install Frida on your device.
