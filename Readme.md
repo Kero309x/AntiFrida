@@ -12,7 +12,7 @@ A Frida-based JavaScript script designed to bypass common anti-Frida detection m
 
 ## Usage
 1. Install Frida on your device.
-2. Save this script as `frida_bypass.js`.
+2. download script `Antifrida.js`.
 3. Run the script using Frida:
    ```bash
-   frida -U -n <target_app> -l frida_bypass.js
+   frida -U -n <target_app> -l Antifrida.js
